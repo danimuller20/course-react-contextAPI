@@ -1,6 +1,6 @@
 import P from 'prop-types';
 import './App.css';
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 
 const Button = React.memo(function Button({ incrementButton }) {
   console.log('Filho, renderizou');
